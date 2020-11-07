@@ -15,6 +15,6 @@
 * Ctrl +X quit apllication
 
 ### pull reuqsts or any sugestions are most welcome
-contact: 99shaileshu@gmail.com
-1 text autocomplete
-2 identations management
+Contact: 99shaileshu@gmail.com
+1. text autocomplete.
+2. identations management.
