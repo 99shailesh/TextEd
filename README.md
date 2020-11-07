@@ -3,7 +3,7 @@
 
 ## How to use this repo
 * download/pull this repo
-* got publish folder then find setup.exe for direct download
+* go to publish folder then find setup.exe for direct download
 * or To make changes in code copy TextEd folder into /source/repos/   
 
 ## After Installing Texted(Documenation)
@@ -15,4 +15,4 @@
 * Ctrl +X quit apllication
 
 ### pull reuqsts or any suugestion most welcome
-contact 99shaileshu@gmail.com
+[contact] 99shaileshu@gmail.com
