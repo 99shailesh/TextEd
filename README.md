@@ -6,7 +6,7 @@
 * go to publish folder then find setup.exe for direct download
 * or To make changes in code copy TextEd folder into /source/repos/   
 
-## After Installing Texted(Documenation)
+## After Installing TextEd(Documenation)
 * Ctrl+ N new code file 
 * Ctrl+ O open code file
 * Ctrl+ S save untiteled code 
@@ -14,5 +14,7 @@
 * Ctrl+ E run code
 * Ctrl +X quit apllication
 
-### pull reuqsts or any sugestions most welcome
+### pull reuqsts or any sugestions are most welcome
 contact: 99shaileshu@gmail.com
+1 text autocomplete
+2 identations management
