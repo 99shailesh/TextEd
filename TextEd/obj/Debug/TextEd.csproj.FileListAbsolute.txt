@@ -1,0 +1,14 @@
+C:\Users\Shailesh\source\repos\TextEd\TextEd\bin\Debug\TextEd.exe.config
+C:\Users\Shailesh\source\repos\TextEd\TextEd\bin\Debug\TextEd.exe
+C:\Users\Shailesh\source\repos\TextEd\TextEd\bin\Debug\TextEd.pdb
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.csprojAssemblyReference.cache
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.Form1.resources
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.Properties.Resources.resources
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.csproj.GenerateResource.cache
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.csproj.CoreCompileInputs.cache
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.exe
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.pdb
+C:\Users\Shailesh\source\repos\TextEd\TextEd\bin\Debug\TextEd.exe.manifest
+C:\Users\Shailesh\source\repos\TextEd\TextEd\bin\Debug\TextEd.application
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.exe.manifest
+C:\Users\Shailesh\source\repos\TextEd\TextEd\obj\Debug\TextEd.application
