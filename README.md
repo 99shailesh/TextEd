@@ -14,5 +14,5 @@
 * Ctrl+ E run code
 * Ctrl +X quit apllication
 
-### pull reuqsts or any suugestion most welcome
-[contact] 99shaileshu@gmail.com
+### pull reuqsts or any sugestions most welcome
+contact: 99shaileshu@gmail.com
