@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextEd.exe" size="15856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextEd.exe" size="16368">
       <assemblyIdentity name="TextEd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>42KusJSi5qUwuc31z18b/Kluzyt+SmkLQJvi5fVCrVI=</dsig:DigestValue>
+        <dsig:DigestValue>cU9wMcixaKWHw/ZaiL/jgsXu6RtPWIPUIc9Xk0Md1EM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

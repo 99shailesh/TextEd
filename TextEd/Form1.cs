@@ -59,8 +59,20 @@ namespace TextEd
 
         private void sAVEToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            string str = richTextBox1.Text;
-            System.IO.File.WriteAllText(label1.Text, str);
+            string message = "Do you want to save changes to cuurent file";
+            string title = "Save Changes";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                string str = richTextBox1.Text;
+                System.IO.File.WriteAllText(label1.Text, str);
+            }
+            else
+            {
+                // Do something  
+            }
+            
         }
         private void oPENToolStripMenuItem_Click(object sender, EventArgs e)// HOW TO OPEN FILE
         {
@@ -94,21 +106,30 @@ namespace TextEd
             string command ="";
             string dir = label1.Text;
 
-            string[] folder = dir.Split('.');
-            if(folder[1]=="cpp")
+            if(dir== "untitled")
             {
-                command = command + "g++ " + dir + " -o " + folder[0] + "&";
-                command = command + folder[0] + ".exe";
+                string message = "File is not saved";
+                string title = "Error";
+                MessageBox.Show(message, title);
             }
-            else if(folder[1]=="py")
+            else
             {
-                command = command + "python " + dir;
+                string[] folder = dir.Split('.');
+                if (folder[1] == "cpp")
+                {
+                    command = command + "g++ " + dir + " -o " + folder[0] + "&";
+                    command = command + folder[0] + ".exe";
+                }
+                else if (folder[1] == "py")
+                {
+                    command = command + "python " + dir;
+                }
+                else
+                {
+                    command = command + "node " + dir;
+                }
+                System.Diagnostics.Process.Start("CMD.exe", "/K" + command);
             }
-            else 
-            {
-                command = command + "node " + dir;
-            }
-            System.Diagnostics.Process.Start("CMD.exe","/K"+command);
         }
 
         
@@ -141,7 +162,12 @@ namespace TextEd
             }
         */
         }
-        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public char nextchar(char ch)
         {
             char chr='!';
