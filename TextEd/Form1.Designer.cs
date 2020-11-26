@@ -115,12 +115,13 @@
             this.rUNToolStripMenuItem.Name = "rUNToolStripMenuItem";
             this.rUNToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.rUNToolStripMenuItem.Text = "RUN";
+            this.rUNToolStripMenuItem.Click += new System.EventHandler(this.rUNToolStripMenuItem_Click);
             // 
             // eXCUTEToolStripMenuItem
             // 
             this.eXCUTEToolStripMenuItem.Name = "eXCUTEToolStripMenuItem";
             this.eXCUTEToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.eXCUTEToolStripMenuItem.Size = new System.Drawing.Size(194, 26);
+            this.eXCUTEToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.eXCUTEToolStripMenuItem.Text = "EXCUTE";
             this.eXCUTEToolStripMenuItem.Click += new System.EventHandler(this.eXCUTEToolStripMenuItem_Click);
             // 
@@ -144,9 +145,9 @@
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(54)))));
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(242)))));
             this.richTextBox1.Location = new System.Drawing.Point(61, 50);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(774, 399);

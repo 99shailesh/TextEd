@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TextEd.exe" version="1.0.0.2" publicKeyToken="98b4163d77f9a5c1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TextEd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TextEd.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextEd.exe" size="18928">
+      <assemblyIdentity name="TextEd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>p2k6UyxXt7QtGSS2aRTMXS0psaLOMzorKe3hAav8pDI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TextEd.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-V6TEKMUU\Shailesh" issuerKeyHash="3e7b442d22b7a496e819df3c8455a16f4db0c662" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/o/3w0WIErE805ZS2uPpF1OatZidGKXYG15OKMyKzto=</DigestValue></Reference></SignedInfo><SignatureValue>P6RZaxecT4fCkqSDwsdv9hR/WvKruIHJ2n4LsnsjlxCE9kYQztab1uTAG31ANOX6N05skJCD9ZNn/pxwSsWvDNs2ZJiRR7tonVhSGBtDD6j9/Ku7+zkQP3/U2G9zdTWnBaUHozJCjQd4r2Yxc+xuiIKNZFp8jjWVKdzA98Kfhts=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mNkxR1iuTtEEeGX1x8tM1bkY9Wi0seFNikTCKgFkHNnmmBbDIdGpZh96I0Zb/Ldy+sU35sYEAxhRSlWk5Fn23O59OlWRQNGtvtACyPOs59qaBBeM5mxUaC9btBTXG5WEKizaQaNYbJlPHx/bfO70M+OsvpgXL+nxFlB2O/fjsdk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dace8acc284e5e1bd8a5189d98b59a5317e9e3da5296d33cb1128845c3f78ffe" Description="" Url=""><as:assemblyIdentity name="TextEd.exe" version="1.0.0.2" publicKeyToken="98b4163d77f9a5c1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-V6TEKMUU\Shailesh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/hjaYgc6f4hKzT29hifhhdtVCF14gPDSG4qn44bNink=</DigestValue></Reference></SignedInfo><SignatureValue>b9YLEIy7GOb6tP3M4fKw6w2t5e0XU0YRUdd6aIkEe8uYoqKQNbuUAM3SodS0+ufx6TcXuiGin/8/5MRR4jSUgDH7GToqSJVszyMSVNq3VlBwNtWUEh29x9qY4oVOE+LA8dOgHjb9O0rKi8eVNt2ryeYFgP5q+xvFdCLYFLYZpeA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mNkxR1iuTtEEeGX1x8tM1bkY9Wi0seFNikTCKgFkHNnmmBbDIdGpZh96I0Zb/Ldy+sU35sYEAxhRSlWk5Fn23O59OlWRQNGtvtACyPOs59qaBBeM5mxUaC9btBTXG5WEKizaQaNYbJlPHx/bfO70M+OsvpgXL+nxFlB2O/fjsdk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQJ1tDW2SxAIxL85PaMZX20TANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAATABBAFAAVABPAFAALQBWADYAVABFAEsATQBVAFUAXABTAGgAYQBpAGwAZQBzAGgwHhcNMjAxMTA3MTI0MjE5WhcNMjExMTA3MTg0MjE5WjA7MTkwNwYDVQQDHjAATABBAFAAVABPAFAALQBWADYAVABFAEsATQBVAFUAXABTAGgAYQBpAGwAZQBzAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJjZMUdYrk7RBHhl9cfLTNW5GPVotLHhTYpEwioBZBzZ5pgWwyHRqWYfeiNGW/y3cvrFN+bGBAMYUUpVpORZ9tzufTpVkUDRrb7QAsjzrOfamgQXjOZsVGgvW7QU1xuVhCos2kGjWGyZTx8f23zu9DPjrL6YFy/p8RZQdjv347HZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARMVn8dzrtGEWoj7dMndz3g2X8OLcqrIy63Qa2ZWo7C90ABY9DxtW0UT2oM45PeqN1zp+gwTlNfpFL3BW9m/H5JnT/MpS8XhjFLi9PX5ufxH+o/h4Gf+iUBFMh9M85hEwb1t/vHHEdQMwEJNVdIR4z6P5Ecl5XQcQaz/06p4kaM0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
