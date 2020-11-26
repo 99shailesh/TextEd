@@ -1,5 +1,5 @@
 # TextEd
- simple text eidtor in C#/.Net Miniproject 
+ simple text eidtor using C#/.Net Miniproject 
 
 ## How to use this repo
 * download/pull this repo
@@ -16,5 +16,10 @@
 
 ### pull reuqsts or any sugestions are most welcome
 Contact: 99shaileshu@gmail.com
+
+### Next Update
 1. text autocomplete.
-2. identations management.
+
+-------------------------------------
+We have created TextEd mostaly keeping in mind of C++ lang few/many features not work other languages like C,Js,Python
+
